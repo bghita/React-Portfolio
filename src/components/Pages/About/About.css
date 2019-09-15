@@ -1,0 +1,10 @@
+.box {
+    padding-top:20px;
+    padding-left:20px;
+    height: 600px;
+    color: whitesmoke;
+    background-color:rgba(0, 0, 0, 0.904);
+}
+#root{
+    background-image: url(https://media.giphy.com/media/7NS9RAepPQ0HJ85qJz/source.gif);
+}
