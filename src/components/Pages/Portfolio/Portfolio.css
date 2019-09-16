@@ -4,8 +4,17 @@
     padding-top:20px;
     padding-left:20px;
     height: 600px;
+    background-color:rgba(0, 0, 0, 0.979);
+}
+.linked {
+    height: 200px;
+}
+.title{
     font-family: 'Poiret One', cursive;
     color: whitesmoke;
     font-size:35px;
-    background-color:rgba(0, 0, 0, 0.979);
+}
+.font{
+    font-size: 20px;
+    background-color: black;
 }

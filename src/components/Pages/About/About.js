@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import './About.css';
 import Images from "./../../Carousel/Carousel";
+import './About.css';
 
 const About = () => {
     return (
@@ -13,17 +13,12 @@ const About = () => {
                             About Me
                             <Images />
                             <div className="text">
-                                Before i found my talent 
-                                as a Technician it first began with my passion being a Mechanic.
-                                Every sunny day i wasn't working was most likely spent in the garage working on my car.
-                                I've had moments of frusterated but thats what made me want to fix it that much more.
-                                No matter how difficult it got nothing took away the satisfaction of
-                                fixing the code at the end of the day.
-                                I then graduated a nine month program at Unitek College that went over Hardware, Software,
-                                Networking, Security, Vlan, Server, Cloud and Desk
-                                Support. That helped me get my foot into Google through a
-                                vendor company. After almost two years of being with Google i was motivated to go back to school 
-                                to gain more knowledge in coding as Web Developer.
+                                Growing up my passion in technology and design began with my car. Wether it was changing an alternator, break pads or doing an oil change there
+                                wasn't anything too difficult for me to research and fix myself. The satisfaction of fixing the code by replacing the right 
+                                part is very similar to popping up the hood on a Web Application trying to figure where you'r code is conflicting. An engine is
+                                built is in a Four Stroke cycle which is Intake, Compress, Power and Ehaust. In order to exceed its maximum performance all four of thoes
+                                cycles need to ready on command. Which I can relate with how the Front-end needs to be able to communicate with Back-end in order to finish 
+                                it's on key function. Many wouldn't think of making the same relation to a car and a application, but their both constantly upgrading technology.
                             </div>
                         </div>
                     </Col>

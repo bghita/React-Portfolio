@@ -7,13 +7,13 @@
     font-family: 'Poiret One', cursive;
     color: whitesmoke;
     font-size:35px;
-    background-color:rgba(0, 0, 0, 0.979);
+    background-color:rgba(0, 0, 0, 0.5);
 }
 .text {
     color:whitesmoke;
     font-size: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
     padding-top: 10px;
     text-indent: 20px;
     text-align: center;
@@ -21,4 +21,6 @@
 
 #root{
     background-image: url(https://media.giphy.com/media/7NS9RAepPQ0HJ85qJz/source.gif);
+    background-repeat:repeat;
+    background-position: center;
 }
