@@ -18,10 +18,10 @@ const Portfolio = () => {
                                     <Card style={{ width: '15rem' }}>
                                     <Card.Img variant="top" className="linked" src={ Code } />
                                         <Card.Body className="font">
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text> Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        <Card.Title>GitHub</Card.Title>
+                                        <Card.Text> Ex
                                         </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
+                                        <Button variant="primary" href="https://github.com/bghita">Go somewhere</Button>
                                         </Card.Body>
                                 </Card>
                                     </Col>
@@ -29,10 +29,10 @@ const Portfolio = () => {
                                     <Card style={{ width: '15rem' }}>
                                     <Card.Img variant="top" className="linked" src={ Go } />
                                         <Card.Body className="font">
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text> Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        <Card.Title>Resume</Card.Title>
+                                        <Card.Text> Ex
                                         </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
+                                        <Button variant="primary" href="https://docs.google.com/document/d/1CS-tnQMdFQPVFVtqfF4-H_ukGyQa3J4mwRyWkBGllME/edit?usp=sharing">Go somewhere</Button>
                                         </Card.Body>
                                 </Card>
                                     </Col>
@@ -40,10 +40,10 @@ const Portfolio = () => {
                                     <Card style={{ width: '15rem' }}>
                                     <Card.Img variant="top" className="linked" src={ Link } />
                                         <Card.Body className="font">
-                                        <Card.Title>Card Title</Card.Title>
-                                        <Card.Text> Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        <Card.Title>Linked In</Card.Title>
+                                        <Card.Text> Ex
                                         </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
+                                        <Button variant="primary" href="https://www.linkedin.com/in/becky-ghita-671045183/">Go somewhere</Button>
                                         </Card.Body>
                                 </Card>
                                     </Col>
