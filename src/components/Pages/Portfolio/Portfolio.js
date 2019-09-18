@@ -19,9 +19,9 @@ const Portfolio = () => {
                                     <Card.Img variant="top" className="linked" src={ Code } />
                                         <Card.Body className="font">
                                         <Card.Title>GitHub</Card.Title>
-                                        <Card.Text> Ex
+                                        <Card.Text> Check out my repo links to the applications i've created
                                         </Card.Text>
-                                        <Button variant="primary" href="https://github.com/bghita">Go somewhere</Button>
+                                        <Button className="butn" variant="primary" href="https://github.com/bghita">Go Link</Button>
                                         </Card.Body>
                                 </Card>
                                     </Col>
@@ -30,9 +30,9 @@ const Portfolio = () => {
                                     <Card.Img variant="top" className="linked" src={ Go } />
                                         <Card.Body className="font">
                                         <Card.Title>Resume</Card.Title>
-                                        <Card.Text> Ex
+                                        <Card.Text> Work experience, education and background
                                         </Card.Text>
-                                        <Button variant="primary" href="https://docs.google.com/document/d/1CS-tnQMdFQPVFVtqfF4-H_ukGyQa3J4mwRyWkBGllME/edit?usp=sharing">Go somewhere</Button>
+                                        <Button className="butn" variant="primary" href="https://docs.google.com/document/d/1CS-tnQMdFQPVFVtqfF4-H_ukGyQa3J4mwRyWkBGllME/edit?usp=sharing">Go Link</Button>
                                         </Card.Body>
                                 </Card>
                                     </Col>
@@ -41,9 +41,9 @@ const Portfolio = () => {
                                     <Card.Img variant="top" className="linked" src={ Link } />
                                         <Card.Body className="font">
                                         <Card.Title>Linked In</Card.Title>
-                                        <Card.Text> Ex
+                                        <Card.Text> Professional networking connnections with co-workers.
                                         </Card.Text>
-                                        <Button variant="primary" href="https://www.linkedin.com/in/becky-ghita-671045183/">Go somewhere</Button>
+                                        <Button className="butn" variant="primary" href="https://www.linkedin.com/in/becky-ghita-671045183/">Go Link</Button>
                                         </Card.Body>
                                 </Card>
                                     </Col>

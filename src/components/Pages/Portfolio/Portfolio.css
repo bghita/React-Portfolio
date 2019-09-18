@@ -10,6 +10,7 @@
     height: 200px;
 }
 .title{
+    padding-bottom: 20px;
     font-family: 'Poiret One', cursive;
     color: whitesmoke;
     font-size:35px;
@@ -17,4 +18,7 @@
 .font{
     font-size: 20px;
     background-color: black;
+}
+.butn {
+    float:right;
 }
