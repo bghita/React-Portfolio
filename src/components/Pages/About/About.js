@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import Images from "./../../Carousel/Carousel";
+import Footer from "./../../Footer/Footer";
 import './About.css';
 
 const About = () => {
@@ -24,6 +25,8 @@ const About = () => {
                     </Col>
                     <Col/>
                 </Row>
+                <Row/>
+                <Footer />
             </Container>
     )
 }

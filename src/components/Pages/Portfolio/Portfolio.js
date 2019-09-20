@@ -1,9 +1,10 @@
 import React from 'react';
-import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import './Portfolio.css';
 import Link from "./../../Images/link.jpg";
 import Code from "./../../Images/git.jpg";
 import Go from "./../../Images/resume.gif";
+import Footer from "./../../Footer/Footer";
 
 const Portfolio = () => {
     return (
@@ -19,7 +20,7 @@ const Portfolio = () => {
                                     <Card.Img variant="top" className="linked" src={ Code } />
                                         <Card.Body className="font">
                                         <Card.Title>GitHub</Card.Title>
-                                        <Card.Text> Check out my repo links to the applications i've created
+                                        <Card.Text> Check out all my repo links to the apps i've created
                                         </Card.Text>
                                         <Button className="butn" variant="primary" href="https://github.com/bghita">Go Link</Button>
                                         </Card.Body>
@@ -30,7 +31,7 @@ const Portfolio = () => {
                                     <Card.Img variant="top" className="linked" src={ Go } />
                                         <Card.Body className="font">
                                         <Card.Title>Resume</Card.Title>
-                                        <Card.Text> Work experience, education and background
+                                        <Card.Text> My work experience, education and references
                                         </Card.Text>
                                         <Button className="butn" variant="primary" href="https://docs.google.com/document/d/1CS-tnQMdFQPVFVtqfF4-H_ukGyQa3J4mwRyWkBGllME/edit?usp=sharing">Go Link</Button>
                                         </Card.Body>
@@ -52,6 +53,8 @@ const Portfolio = () => {
                     </Col>
                     <Col/>
                 </Row>
+                <Row/>
+                <Footer/>
             </Container>
     )
 }
